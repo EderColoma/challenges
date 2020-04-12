@@ -1,12 +1,14 @@
-package challenges;
+package problem_solving;
 
-import static  challenges.GradingStudents.gradingStudents;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.GradingStudents.gradingStudents;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
+
+import problem_solving.DiagonalDifference;
 
 /**
  * Tests the methods of the {@link DiagonalDifference} class.

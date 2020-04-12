@@ -1,12 +1,14 @@
-package challenges;
+package problem_solving;
 
-import static challenges.BirthdayChocolate.getPossibleSegments;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.BirthdayChocolate.getPossibleSegments;
 
 import java.util.List;
 
 import org.junit.Test;
+
+import problem_solving.BirthdayCakeCandles;
 
 /**
  * Tests the methods of the {@link BirthdayCakeCandles} class.

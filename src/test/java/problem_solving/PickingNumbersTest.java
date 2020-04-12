@@ -1,12 +1,14 @@
-package challenges;
+package problem_solving;
 
-import static  challenges.PickingNumbers.pickingNumbers;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.PickingNumbers.pickingNumbers;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
+
+import problem_solving.PickingNumbers;
 
 /**
  * Tests the methods of the {@link PickingNumbers} class.

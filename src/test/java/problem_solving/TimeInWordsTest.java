@@ -1,9 +1,11 @@
-package challenges;
+package problem_solving;
 
-import static  challenges.TimeInWords.timeInWords;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.TimeInWords.timeInWords;
 
 import org.junit.Test;
+
+import problem_solving.TimeInWords;
 
 /**
  * Tests the methods of the {@link TimeInWords} class.

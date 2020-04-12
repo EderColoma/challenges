@@ -1,9 +1,11 @@
-package challenges;
+package problem_solving;
 
-import static  challenges.SockMerchant.getNumberOfMatchingPairs;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.SockMerchant.getNumberOfMatchingPairs;
 
 import org.junit.Test;
+
+import problem_solving.SockMerchant;
 
 /**
  * Tests the methods of the {@link SockMerchant} class.

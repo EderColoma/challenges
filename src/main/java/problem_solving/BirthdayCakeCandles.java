@@ -1,4 +1,4 @@
-package challenges;
+package problem_solving;
 
 /**
  * You are in charge of the cake for your niece's birthday and have decided the cake will have one candle for each year of her total age. 

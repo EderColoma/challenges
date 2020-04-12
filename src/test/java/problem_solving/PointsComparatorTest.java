@@ -1,12 +1,14 @@
-package challenges;
+package problem_solving;
 
-import static  challenges.PointsComparator.comparePoints;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.PointsComparator.comparePoints;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
+
+import problem_solving.PointsComparator;
 
 /**
  * Tests the methods of the {@link PointsComparator} class.

@@ -1,4 +1,4 @@
-package challenges;
+package problem_solving;
 
 import java.util.List;
 

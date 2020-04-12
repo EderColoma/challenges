@@ -1,4 +1,4 @@
-package challenges;
+package problem_solving;
 
 /**
  * Given the time in numerals we may convert it into words.

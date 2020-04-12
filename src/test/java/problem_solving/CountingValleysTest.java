@@ -1,9 +1,11 @@
-package challenges;
+package problem_solving;
 
-import static challenges.CountingValleys.countValleys;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.CountingValleys.countValleys;
 
 import org.junit.Test;
+
+import problem_solving.CountingValleys;
 
 /**
  * Tests the methods of the {@link CountingValleys} class.

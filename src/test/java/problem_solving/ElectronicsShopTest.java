@@ -1,9 +1,11 @@
-package challenges;
+package problem_solving;
 
-import static  challenges.ElectronicsShop.getMoneySpent;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.ElectronicsShop.getMoneySpent;
 
 import org.junit.Test;
+
+import problem_solving.ElectronicsShop;
 
 /**
  * Tests the methods of the {@link ElectronicsShop} class.

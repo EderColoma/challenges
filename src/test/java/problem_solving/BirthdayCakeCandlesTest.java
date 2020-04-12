@@ -1,9 +1,11 @@
-package challenges;
+package problem_solving;
 
-import static challenges.BirthdayCakeCandles.birthdayCakeCandles;
 import static org.junit.Assert.assertEquals;
+import static problem_solving.BirthdayCakeCandles.birthdayCakeCandles;
 
 import org.junit.Test;
+
+import problem_solving.BirthdayCakeCandles;
 
 /**
  * Tests the methods of the {@link BirthdayCakeCandles} class.

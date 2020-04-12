@@ -1,7 +1,7 @@
-package challenges;
+package problem_solving;
 
-import static challenges.BonAppetit.bonAppetit;
 import static  java.util.Arrays.asList;
+import static problem_solving.BonAppetit.bonAppetit;
 
 import java.util.List;
 
