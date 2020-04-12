@@ -5,6 +5,9 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+/**
+ * Tests the methods of the {@link ElectronicsShop} class.
+ */
 public class ElectronicsShopTest {
 
 	/**
