@@ -45,7 +45,7 @@ public class StringTokensTest {
 	}
 	
 	/**
-	 * Tests the extraction of tokens from an empty text.
+	 * Tests the extraction of tokens from a null text.
 	 */
 	@Test
 	public void extractTokensNullTest() {
@@ -54,6 +54,9 @@ public class StringTokensTest {
 		assertTrue(tokens.isEmpty());
 	}
 	
+	/**
+	 * Tests the extraction of tokens from a text with multiple blank spaces.
+	 */
 	@Test
 	public void extractTokensMultipleSpacesTest() {
 		final String s = "                a                    \r\n";
