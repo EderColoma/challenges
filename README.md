@@ -3,4 +3,4 @@
 
 # HackerRank Challenges
 
-Solution of programming challenges found on HackerRank
+Solutions of programming challenges found on HackerRank
