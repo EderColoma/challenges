@@ -8,6 +8,13 @@ package java_problems;
 */
 public class ExceptionHandling {
 
+	/**
+	 * Computes the power of a number.
+	 * @param n Base
+	 * @param p Exponent
+	 * @return n to the p power.
+	 * @throws Exception
+	 */
 	public long power(int n, int p) throws Exception {
 
 		if(n < 0 || p < 0) {
