@@ -29,7 +29,7 @@ public class StringReverse {
 		final StringBuilder reversed = new StringBuilder();
 		
 		for(int i = string.length(); i > 0; i--) {
-			reversed.append(string.substring(i, i-1));
+			reversed.append(string.substring(i-1, i));
 		}
 		
 		return reversed.toString();
