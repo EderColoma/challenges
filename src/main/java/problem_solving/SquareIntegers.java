@@ -17,7 +17,8 @@ public class SquareIntegers {
 		int count = 0;
 		
 		for(int i = a; i <= b; i++) {
-			if(Math.ceil(Math.sqrt(i)) == Math.sqrt(i)) {
+			double sqrt = Math.sqrt(i);
+			if(Math.ceil(sqrt) == sqrt) {
 				count++;
 			}
 		}
