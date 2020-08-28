@@ -7,8 +7,18 @@ package problem_solving;
  */
 public class RepeatedString {
 	
+	/**
+	 * Makes the constructor private so the class can not be instantiated.
+	 */
 	private RepeatedString() {}
 	
+	/**
+	 * Counts how many times the letter "a" appears in a string repeated until a given length.
+	 *  
+	 * @param s The string to be repeated.
+	 * @param n The length of the string.
+	 * @return How many times the letter "a" appears in the string.
+	 */
 	public static long repeatedString(String s, long n) {
 		long repetitions = 0;
 		

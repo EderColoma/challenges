@@ -11,6 +11,9 @@ import java.util.Optional;
  */
 public class EqualizeArray {
 
+	/**
+	 * Makes the constructor private so the class can not be instantiated.
+	 */
 	private EqualizeArray() {}
 	
 	/**
