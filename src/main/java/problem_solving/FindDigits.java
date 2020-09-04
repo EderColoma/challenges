@@ -11,6 +11,9 @@ import java.util.List;
  */
 public class FindDigits {
 	
+	/**
+	 * Makes the constructor private so the class can not be instantiated.
+	 */
 	private FindDigits() {}
 	
 	/**
