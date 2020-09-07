@@ -9,6 +9,9 @@ import java.util.Optional;
  */
 public class DesignerPDFViewer {
 
+	/**
+	 * Makes the constructor private so the class can not be instantiated.
+	 */
 	private DesignerPDFViewer() {}
 
 	/**

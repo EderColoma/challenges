@@ -12,8 +12,19 @@ package problem_solving;
  */
 public class BeautifulDaysAtTheMovies {
 
+	/**
+	 * Makes the constructor private so the class can not be instantiated.
+	 */
 	private BeautifulDaysAtTheMovies() {}
 
+	/**
+	 * Counts the number of beautiful days in an interval.
+	 *
+	 * @param i The starting day.
+	 * @param j The ending day.
+	 * @param k The divisor.
+	 * @return The number of beautiful days within the interval.
+	 */
     public static int countBeautifulDays(int i, int j, int k) {
     	int beautifulDays = 0;
 
