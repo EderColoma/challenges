@@ -8,8 +8,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-import problem_solving.DiagonalDifference;
-
 /**
  * Tests the methods of the {@link DiagonalDifference} class.
  */
@@ -24,23 +22,23 @@ public class DiagonalDifferenceTest {
 		firstLine.add(11);
 		firstLine.add(2);
 		firstLine.add(4);
-		
+
 		final List<Integer> secondLine = new ArrayList<>();
 		secondLine.add(4);
 		secondLine.add(5);
 		secondLine.add(6);
-		
+
 		final List<Integer> thirdLine = new ArrayList<>();
 		thirdLine.add(10);
 		thirdLine.add(8);
 		thirdLine.add(-12);
-		
+
 		final List<List<Integer>> arr = new ArrayList<>();
 		arr.add(firstLine);
 		arr.add(secondLine);
 		arr.add(thirdLine);
-		
+
 		assertEquals(15, diagonalDifference(arr));
 	}
-	
+
 }

@@ -5,8 +5,6 @@ import static problem_solving.ElectronicsShop.getMoneySpent;
 
 import org.junit.Test;
 
-import problem_solving.ElectronicsShop;
-
 /**
  * Tests the methods of the {@link ElectronicsShop} class.
  */
@@ -19,7 +17,7 @@ public class ElectronicsShopTest {
 	public void getMoneySpentTest() {
 		final int[] keyboards = {40, 50, 60};
 		final int[] drives = {5, 8, 12};
-		
+
 		assertEquals(58, getMoneySpent(keyboards, drives, 60));
 	}
 
@@ -30,7 +28,7 @@ public class ElectronicsShopTest {
 	public void getMoneySpentNotAffordableTest() {
 		final int[] keyboards = {40, 50, 60};
 		final int[] drives = {5, 8, 12};
-		
+
 		assertEquals(-1, getMoneySpent(keyboards, drives, 10));
 	}
 }

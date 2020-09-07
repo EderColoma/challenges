@@ -5,8 +5,6 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import java_problems.SubstringComparisons;
-
 /**
  * Tests the methods of the {@link SubstringComparisons} class.
  */
@@ -18,7 +16,7 @@ public class SubstringComparisonsTest {
 	@Test
 	public void getSmallestAndLargestTest(){
 		final String string = "welcometojava";
-		assertEquals("ava\nwel", getSmallestAndLargest(string, 3));	
+		assertEquals("ava\nwel", getSmallestAndLargest(string, 3));
 	}
-	
+
 }

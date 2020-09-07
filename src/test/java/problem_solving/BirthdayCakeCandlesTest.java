@@ -5,8 +5,6 @@ import static problem_solving.BirthdayCakeCandles.birthdayCakeCandles;
 
 import org.junit.Test;
 
-import problem_solving.BirthdayCakeCandles;
-
 /**
  * Tests the methods of the {@link BirthdayCakeCandles} class.
  */
@@ -17,10 +15,10 @@ public class BirthdayCakeCandlesTest {
 	 */
 	@Test
 	public void birthdayCakeCandlesTest() {
-		
-		int ar[] = {1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 2, 5 ,6};
+
+		final int ar[] = {1, 2, 3, 3, 3, 4, 5, 6, 6, 6, 2, 5 ,6};
 		assertEquals(4, birthdayCakeCandles(ar));
-		
+
 	}
-	
+
 }

@@ -5,8 +5,6 @@ import static problem_solving.CountingValleys.countValleys;
 
 import org.junit.Test;
 
-import problem_solving.CountingValleys;
-
 /**
  * Tests the methods of the {@link CountingValleys} class.
  */

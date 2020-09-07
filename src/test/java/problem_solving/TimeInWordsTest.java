@@ -5,8 +5,6 @@ import static problem_solving.TimeInWords.timeInWords;
 
 import org.junit.Test;
 
-import problem_solving.TimeInWords;
-
 /**
  * Tests the methods of the {@link TimeInWords} class.
  */
@@ -19,7 +17,7 @@ public class TimeInWordsTest {
 	public void timeInWordsZeroTest() {
 		assertEquals("two o' clock", timeInWords(2, 0));
 	}
-	
+
 	/**
 	 * Tests the return of a time in words when the time minute is 0.
 	 */
@@ -27,7 +25,7 @@ public class TimeInWordsTest {
 	public void timeInWordsHalfTest() {
 		assertEquals("half past five", timeInWords(5, 30));
 	}
-	
+
 	/**
 	 * Tests the return of a time in words when the minute is before 30.
 	 */
@@ -35,7 +33,7 @@ public class TimeInWordsTest {
 	public void timeInWordsBeforeHalfTest() {
 		assertEquals("quarter past ten", timeInWords(10, 15));
 	}
-	
+
 	/**
 	 * Tests the return of a time in words when the time minute is after 30.
 	 */
@@ -43,7 +41,7 @@ public class TimeInWordsTest {
 	public void timeInWordsAfterHalfTest() {
 		assertEquals("five minutes to three", timeInWords(2, 55));
 	}
-	
+
 	/**
 	 * Tests the return of a time in words when the minute is one.
 	 */
@@ -51,7 +49,7 @@ public class TimeInWordsTest {
 	public void timeInWordsOneMinutePastTest() {
 		assertEquals("one minute past one", timeInWords(1, 1));
 	}
-	
+
 	/**
 	 * Tests the return of a time in words when it is one minute to the next hour.
 	 */

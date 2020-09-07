@@ -8,8 +8,6 @@ import java.util.List;
 
 import org.junit.Test;
 
-import problem_solving.BirthdayCakeCandles;
-
 /**
  * Tests the methods of the {@link BirthdayCakeCandles} class.
  */
@@ -23,5 +21,5 @@ public class BirthdayChocolateTest {
 		final List<Integer> chocolateBar = asList(2, 2, 1, 3, 2);
 		assertEquals(2, getPossibleSegments(chocolateBar, 4, 2));
 	}
-	
+
 }
